@@ -1,0 +1,38 @@
+h1 {
+    color: rgba(0, 0, 0, 0.616);
+    text-transform: uppercase;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1:before,
+h1:after {
+background-color: #000;
+content: "";
+display: inline-block;
+height: 10px;
+position: relative;
+vertical-align: middle;
+width: 40px;
+}
+
+h1:before {
+right: 0.5em;
+margin-left: -50%;
+}
+
+h1:after {
+left: 0.5em;
+margin-right: -50%;
+}
+
+div {
+    background-size: 1800px 880px;
+    background-image: url(file:///Users/paigekelly/Development/code/phase_0/my-personal-website-project/images/paige-kelly-skiing.jpg);
+    padding-top: 400px;
+    padding-bottom: 400px;
+    text-align:center;
+    font-family: gotham rounded, sans-serif;
+    font-size:xx-large;
+    background-repeat:no-repeat
+}
