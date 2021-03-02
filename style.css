@@ -1,9 +1,10 @@
 h1 {
     color: white;
     text-transform: uppercase;
-    overflow: hidden;
     text-align: center;
     text-shadow: 2px 2px black;
+    text-align:center;
+    font-size:65px;
 }
 
 h1:before,
@@ -18,23 +19,83 @@ h1:after {
     box-shadow: 1px 2px 3px black;
 }
 
-h1:before {
+h1:before, h2:before {
     right: 0.5em;
     margin-left: -50%;
 }
 
-h1:after {
+h1:after, h2:after {
     left: 0.5em;
     margin-right: -50%;
 }
 
-div {
-    background-size: 1500px 880px;
+#welcomeBlock {
+    background-size: 100% 100%;
     background-image: url(file:///Users/paigekelly/Development/code/phase_0/my-personal-website-project/images/paige-kelly-skiing.jpg);
     padding-top: 400px;
     padding-bottom: 400px;
-    text-align:center;
-    font-family: gotham rounded, sans-serif;
-    font-size:xx-large;
     background-repeat:no-repeat;
+    font-size:xx-large;
 }
+
+h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:black;
+    font-family: 'Alex Brush';
+    font-size: 30px;
+}
+
+h2:before,
+h2:after {
+    background-color:black;
+    content: "";
+    display: inline-block;
+    height: 1.2px;
+    position: relative;
+    vertical-align: middle;
+    width: 70px;
+}
+
+body {
+    background-color: #2B2B29;
+    text-align: center;
+    font-family: sans-serif, "brandon grotesque", Helvetica, sans-serif
+}
+
+.white-box { 
+    width: 600px; 
+    height: auto; 
+    margin-top: -40px; 
+    margin-left: 0px; 
+    margin-right: auto;   
+    background: white;
+    padding: 20px;
+}
+
+p {
+    color:#1B3154;
+    size:70px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.purple-box { 
+    width: 600px; 
+    height: auto; 
+    margin-top: -600px; 
+    margin-left: 80%; 
+    margin-right: auto;   
+    background: #5C5E8A;
+    padding: 20px;
+}
+
+/* Light purple color #989DC7 
+    Redish pink color #93153A
+    goggle blue color #1B3154
+    mountain black ish #20262D
+    purply flower #5C5E8A
+    mountain brown #2B2B29
+*/
