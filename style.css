@@ -56,12 +56,26 @@ h1:after, h2:after {
 
 
 /* h2 is my story and titles of sections */
-h2 {
+h2, h3 {
     font-size: 150%;
     padding-top: 0px;
     padding-bottom: 10px;
 }
 
+h3 {
+    color:white
+}
+
+h2:before,
+h2:after {
+    background-color:#2B2B29;
+    content: "";
+    display: inline-block;
+    height: 1.2px;
+    position: relative;
+    vertical-align: middle;
+    width: 70px;
+}
 /* lines next to my story and name */
 h2:before,
 h2:after {
@@ -75,7 +89,7 @@ h2:after {
 }
 
 body {
-    background-color: #2B2B29;
+    background-color: white;
     text-align: center;
     font-family: 'Cardo', serif;
     /* font-family: sans-serif, 'brandon grotesque', Helvetica, sans-serif; */
@@ -85,13 +99,22 @@ body {
 /* Using for my story currently */
 .white-box { 
     height: auto;
-    margin-top: -60px; 
     margin:auto;
-    width: 50%; 
-    align-items: center;
+    width: 65%; 
     background: white;
     padding: 20px;
-    margin-left: auto;
+    margin-left: -15px;
+}
+
+.pink-box { 
+    height: auto;
+    margin-top: -350px;
+    margin-left:auto;
+    margin-bottom: auto;
+    width: 30%; 
+    background: #c5154a;
+    padding: 20px;
+    margin-right: -15px;
 }
 
 p {
