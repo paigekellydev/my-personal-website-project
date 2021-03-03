@@ -40,13 +40,13 @@ h1:after, h2:after {
 
 h2 {
     font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color:black;
-    font-family: 'Alex Brush';
-    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    /* color:black; */
+    font-family: 'Meddon';
 }
 
+/* lines next to my story and name */
 h2:before,
 h2:after {
     background-color:black;
@@ -61,21 +61,22 @@ h2:after {
 body {
     background-color: #2B2B29;
     text-align: center;
-    font-family: sans-serif, "brandon grotesque", Helvetica, sans-serif
+    font-family: sans-serif, 'brandon grotesque', Helvetica, sans-serif;
+    color: #2B2B29;
 }
 
+/* Using for my story currently */
 .white-box { 
-    width: 600px; 
-    height: auto; 
-    margin-top: -40px; 
-    margin-left: 0px; 
+    height: auto;
+    margin-top: -50px; 
+    width: 50%;
     margin-right: auto;   
     background: white;
     padding: 20px;
+    margin-left: auto;
 }
 
 p {
-    color:#1B3154;
     size:70px;
     text-align: justify;
     padding-left: 40px;
@@ -88,7 +89,7 @@ p {
     margin-top: -600px; 
     margin-left: 80%; 
     margin-right: auto;   
-    background: #5C5E8A;
+    background:#c4d5e7;
     padding: 20px;
 }
 
@@ -98,4 +99,6 @@ p {
     mountain black ish #20262D
     purply flower #5C5E8A
     mountain brown #2B2B29
+    snow color #c4d5e7
+    lighter snow color #d2e1f1
 */
