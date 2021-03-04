@@ -85,41 +85,68 @@ body {
     color: #2B2B29;
 }
 
-.white-box {
+.white-box, .pink-box {
     height:auto;
-    margin:auto;
+    /* margin:auto; */
     width:65%; 
     background:white;
     padding:20px;
-    margin-left:-15px;
+    float: left;
+    display: inline-block;
+}
+
+.resume-box {
+    height:auto;
+    margin:auto;
+    width:cover;
+    padding:20px;
+    position:center;
+    background-color:#c4d5e7;
 }
 
 .pink-box { 
-    height: auto;
-    margin-top:-350px;
-    margin-left:auto;
-    margin-bottom: auto;
     width: 30%; 
     background: #c5154a;
     padding: 20px;
-    margin-right: -15px;
+    margin-right: auto;
+    float:right;
+    display: inline-block;
 }
 
 p {
     size:70px;
     text-align: justify;
-    padding-left: 40px;
     padding-right: 40px;
+    padding-left: 40px;
 }
 
 .purple-box { 
-    width: 600px; 
     height: auto; 
-    margin-top: -600px; 
-    margin-left: 80%; 
-    margin-right: auto;   
-    background:#c4d5e7;
+    width: 400px;
+    margin-left:50%;
     padding: 20px;
+    background-color:#1B3154;
+    color:white;
+    text-align:center;
+    margin:30px;
+    /* display: inline-block;
+    float:center; */
+}
+
+.border-box {
+    height:500px;
+    width: 500px;
+    border-style:solid;
+    border-color:orange;
+    margin:20px;
+    display: inline-block;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* border-bottom; 3px 1px black; */
 }
 
 /* Light purple color #989DC7 
