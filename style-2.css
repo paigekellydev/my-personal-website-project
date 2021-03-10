@@ -1,0 +1,22 @@
+
+body {
+
+}
+
+.quote {
+    margin-top: auto;
+    margin-left: 30em;
+    margin-right:30em;
+    background: #1B3154;
+    padding: 1em;
+    color:white;
+}
+
+.quote blockquote {
+    padding:1em;
+}
+
+.quote figcaption {
+    padding: 1em;
+
+}
