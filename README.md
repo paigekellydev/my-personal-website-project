@@ -47,3 +47,11 @@ http://www.garysheng.com/
 
 Notes for later:
 Add animated box over name; "Allow me to introduce myself, my name is" then flash to my name
+
+Animation help:
+https://speckyboy.com/animation-snippets/ (nav bar)
+
+https://speckyboy.com/css-javascript-text-animation-snippets/ (alticreation - change words "allow me...)
+
+a link help:
+https://www.w3schools.com/css/css_link.asp

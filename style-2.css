@@ -4,19 +4,52 @@ body {
 }
 
 .quote {
-    margin-top: auto;
-    margin-left: 30em;
-    margin-right:30em;
+    margin: auto;
+    width: fit-content;
+    max-width: 30%;
     background: #1B3154;
     padding: 1em;
     color:white;
+    text-align: right;
 }
 
 .quote blockquote {
-    padding:1em;
+    padding:1.5em;
 }
 
 .quote figcaption {
-    padding: 1em;
+    padding: 1.5em;
+}
 
+q {
+    display:block;
+    text-align: left;
+}
+  
+q:before {
+    content: open-quote;
+    font-size: 4em;
+    color:#c4d5e7;
+}
+  
+q:after {
+    content: close-quote;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#menu {
+    height: 100%;
+    position: fixed;
+    background-color: #93153A;
+    width: 10em;
+    right: 0px;
+    color:white;
+}
+
+#menu a {
+    color:white; 
+    text-decoration: none;
 }
