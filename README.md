@@ -25,8 +25,8 @@ Colors:
 
     Others-
     Light purple color #989DC7 
-    Redish pink color #93153A
-    goggle blue color #1B3154
+    Pink color #c5154a
+    Indigo goggle blue color #1B3154
     mountain black ish #20262D
     purply flower #5C5E8A
     mountain brown #2B2B29
