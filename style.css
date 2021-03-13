@@ -1,9 +1,16 @@
+/* header {
+    
+} */
 
 body {
     background-color: white;
     text-align: center;
     font-family: 'Cardo', serif;
     color: #2B2B29;
+    height: 850px;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -218,4 +225,3 @@ img.wiggle {
     display: inline-block;
     animation: wiggle 2.5s infinite;
 } */ */
-
