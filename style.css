@@ -52,7 +52,7 @@ nav#menu {
     height: 100%;
     position: absolute;
     background-color:#c5154a;
-    width: 20em;
+    width: 10em;
     right: 0em;
     color:white;
 }
@@ -74,7 +74,7 @@ nav#menu a {
     text-transform: uppercase;
     text-align: center;
     text-shadow: 0.1em 0.1em #2B2B29;
-    font-size:50px;
+    font-size:3em;
     font-stretch: ultra-expanded;
     font-family: 'Oswald';
 }
@@ -94,14 +94,13 @@ nav#menu a {
     padding-bottom: 20em;
     min-height: 10em;
     background-color: transparent;
+    color:white;
 }
 
 h1:before,
 h1:after,
 h2:before,
-h2:after, 
-h3:before, 
-h3:after {
+h2:after {
     background-color:#2B2B29;
     content: "";
     display: inline-block;
@@ -119,17 +118,13 @@ h1:after {
     box-shadow: 1px 2px 3px #2B2B29;
 }
 
-h3:before,
-h3:after {
-    background-color:white;
-}
 
-h1:before, h2:before, h3:before {
+h1:before, h2:before {
     right: 0.5em;
     margin-left: -50%;
 }
 
-h1:after, h2:after, h3:after {
+h1:after, h2:after {
     left: 0.5em;
     margin-right: -50%;
 }
@@ -138,6 +133,7 @@ table {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    transition: left 3s;
 }
 
 td {
@@ -148,24 +144,53 @@ td {
 .interests {
     width:5em;
     min-width: 100%;
-    position: relative;
+    position: flex;
 }
 
-/* .circle {
+#contact {
+    height: 100%;
+    position: absolute;
+    background-color:#c4d5e7;
+    width: 8em;
+    left: 0em;
+    padding-right: 3em;
+    padding-left: 0em;
+}
+
+li {
+    padding: 1em;
+}
+
+h1 {
     transform-style: preserve-3d;
-    animation: animate 8s linear infinite;
+    animation: spin 4s linear 0s;
 }
 
-@keyframes animate {
+@keyframes spin {
     0% {
-        transform: perspective(0em) rotateY(360deg) rotateX(15deg);
+        transform: perspective(5em) rotateY(360deg) rotateX(15deg);
     }
     100% {
         transform: perspective(0em) rotateY(0deg) rotateX(15deg);
     }
 }
 
-.circle .char {
+h3 {
+    transform-style: preserve-3d;
+    animation: left-side;
+
+}
+
+@keyframes left-slide {
+    0% {
+        transform: perspective(5em) rotateY(360deg) rotateX(15deg);
+    }
+    100% {
+        transform: perspective(0em) rotateY(0deg) rotateX(15deg);
+    }
+
+}
+/* .circle .char {
     position: absolute;
     top: 0;
     left: 0;
@@ -192,5 +217,5 @@ td {
 img.wiggle {
     display: inline-block;
     animation: wiggle 2.5s infinite;
-} */
+} */ */
 
