@@ -1,7 +1,7 @@
 # my-personal-website-project
 
 List of items:
-Nav bar - pink (side pop - out if possible)
+Nav bar - pink (side pop - out if possible- decided not to have nav bar)
 
     My story
     Virtual Resume/Work experience (expand option if possible)
@@ -13,7 +13,7 @@ Nav bar - pink (side pop - out if possible)
         - indigo
     To the top / From the top / Home arrow / my name is to header anchor
 
-Quote box - indigo (not sure placement)
+Quote box - indigo (not sure placement - decided not to have quote box)
     “When we invest in women and girls, we are investing in the people who invest in everyone else." - Melinda Gates
 Header image - font animation - "allow me to introduce myself, my name is - PAIGE KELLY (add if possible)
 
@@ -22,14 +22,15 @@ Colors:
     Pink: #93153A
     Indigo: #1B3154
     Light blue: #c4d5e7
+    Brown: #2B2B29
 
     Others-
     Light purple color #989DC7 
     Pink color #c5154a
-    Indigo goggle blue color #1B3154
+    Indigo goggle blue color #1B3154 (clicked color)
     mountain black ish #20262D
-    purply flower #5C5E8A
-    mountain brown #2B2B29
+    purply flower #5C5E8A (unclicked clicked color)
+    mountain brown #2B2B29 (hover)
     snow color #c4d5e7
     lighter snow color #d2e1f1
 

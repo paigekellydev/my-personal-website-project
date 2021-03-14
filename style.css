@@ -9,9 +9,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
-h2, h3, h4, h5, h6 {
-    color: #2B2B29;
-}
 
 h1:before,
 h1:after {
@@ -91,7 +88,7 @@ h1:after, h2:after {
 #about-me {
     padding:1.5em;
     border-style: solid;
-    border-color:#c4d5e7;
+    border-color:#5C5E8A;
     width: 35%;
     height:100%;
 }
@@ -125,28 +122,30 @@ h1:after, h2:after {
 }
 
 .job-title td {
-    padding-right: 1em;
+    padding-right: .2em;
     padding-left:1em;
+    width:20em;
     text-align:left;
     margin-left:auto;
     margin-right:auto;
     padding-top: -1em;
 }
 
-
 #virtual-resume {
-    width:70%;
+    width:80%;
     margin-right:auto;
     margin-left:auto;
+    background: #d2e1f1;
 }
 
 #virtual-resume-title {
     margin-right:auto;
     margin-left:auto;
     text-align:center;
-    border-bottom: solid #c4d5e7;
-    width:70%;
-    padding-bottom:1em;
+    border-bottom: solid #2B2B29;
+    width:60%;
+    padding-bottom:2em;
+    padding-top:2em;
 }
 
 .job-description li {
@@ -173,9 +172,11 @@ h1:after, h2:after {
 }
 
 .resume {
-    height:300px;
+    max-height:100%;
+    min-height:400px;
     padding:2em;
-    border-bottom: solid #c4d5e7;
+    padding-bottom:0em;
+    border-bottom: solid #2B2B29;
     margin:0em;
 }
 
@@ -187,23 +188,33 @@ h3, h4 {
 .icon-table {
     margin-left: auto;
     margin-right: auto;
+    padding-bottom:2em;
 }
 
 .icon-table td {
     padding-right: 2em;
     padding-left:2em;
+    padding-top:-0.1em;
 }
 
 .icon-container {
-    padding: 2em;
     padding-top:1em; 
 }
 
+#contact {
+    color: #5C5E8A;
+    margin-bottom:1em;
+}
 
 h1 {
     transform-style: preserve-3d;
     animation: spin 4s linear 0s;
 }
+
+.interests:hover {
+    animation: spin 2s linear 0s;
+}
+
 
 @keyframes spin {
     0% {
@@ -228,6 +239,15 @@ h3 {
         transform: perspective(0em) rotateY(50deg) rotateX(15deg);
     }
 
+}
+
+#phone {
+    background-image:url("images/phone-purple-icon.png")
+}
+
+#phone:hover{
+    background-image:url("images/phone-icon.png")
+    color:blue;
 }
 
 /* .quote {
