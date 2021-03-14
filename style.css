@@ -9,8 +9,30 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+h2, h3, h4, h5, h6 {
+    color: #2B2B29;
+}
+
 h1:before,
 h1:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    background-color: white;
+    height: .1em;
+    width: 1em;
+    box-shadow: 1px 2px 3px #2B2B29;
+}
+
+#welcome-message {
+    size:100px;
+    color:white;
+    text-shadow: 0.1em 0.1em #2B2B29;
+}
+
+h2:before,
+h2:after { 
     background-color:#2B2B29;
     content: "";
     display: inline-block;
@@ -20,20 +42,12 @@ h1:after {
     width: 1em;
 }
 
-h1:before,
-h1:after { 
-    background-color: white;
-    height: .1em;
-    width: 1em;
-    box-shadow: 1px 2px 3px #2B2B29;
-}
-
-h1:before { 
+h1:before, h2:before { 
     right: 0.5em;
     margin-left: -50%;
 }
 
-h1:after {
+h1:after, h2:after {
     left: 0.5em;
     margin-right: -50%;
 }
@@ -121,17 +135,18 @@ h1:after {
 
 
 #virtual-resume {
-    background-color:#c4d5e7;
     width:70%;
     margin-right:auto;
     margin-left:auto;
-    padding:2em;
 }
 
-#resume-title {
+#virtual-resume-title {
     margin-right:auto;
     margin-left:auto;
     text-align:center;
+    border-bottom: solid #c4d5e7;
+    width:70%;
+    padding-bottom:1em;
 }
 
 .job-description li {
@@ -159,7 +174,9 @@ h1:after {
 
 .resume {
     height:300px;
-    padding:1em;
+    padding:2em;
+    border-bottom: solid #c4d5e7;
+    margin:0em;
 }
 
 
