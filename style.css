@@ -81,23 +81,27 @@ h1:after {
     padding:1.5em;
     border-style: solid;
     border-color:#c4d5e7;
-    width: 40%;
-
+    width: 35%;
+    height:100%;
 }
 
 .container {
     display:block;
     text-align: center;
     padding:1.5em;
+    padding-top:4em;
     width: 40%;
-    margin-top:2em;
-    margin-bottom:2em;
+    margin-top:4em;
     margin-left:auto;
     margin-right:auto;
 }
 
-#about-me p{
+
+
+#about-me p {
     text-align:justify;
+    padding-right:4em;
+    padding-left:4em;
 }
 
 ul {
@@ -106,21 +110,26 @@ ul {
 
 .resume ul li {
     text-align:left;
-    width:40%
+    width:100%
 }
 
 .job-title td {
-    padding-right: 30em;
-    
+    padding-right: 2em;
     text-align:left;
     margin-left:auto;
     margin-right:auto;
+    padding-top:2em;
 }
 
 
 #virtual-resume {
     background-color:#c4d5e7;
-    width:100%
+    width:100%;
+    margin-top:2em;
+}
+
+#resume-title {
+    margin:0em;
 }
 
 .resume {
@@ -132,10 +141,7 @@ ul {
     margin:1em;
 }
 
-.container {
-    padding: 2em;
-    padding-top:1em; 
-}
+
 
 h3, h4 {
     padding:0em;
