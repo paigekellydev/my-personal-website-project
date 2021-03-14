@@ -1,25 +1,3 @@
-#about-me {
-    display:block;
-    text-align: center;
-    padding:1.5em;
-    border-style: solid;
-    border-color:#c4d5e7;
-    width: 40%;
-    margin-top:2em;
-    margin-bottom:2em;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-#about-me p{
-    text-align:justify;
-}
-
-#welcome-block h2 {
-    text-align: center;
-    size: 8em;
-}
-
 body {
     background-color: white;
     text-align: center;
@@ -31,8 +9,36 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
-ul {
-    list-style-type:
+h1:before,
+h1:after,
+ul li:before {
+    background-color:#2B2B29;
+    content: "";
+    display: inline-block;
+    height: .1em;
+    position: relative;
+    vertical-align: middle;
+    width: 1em;
+}
+
+h1:before,
+h1:after,
+ul li:before {
+    background-color: white;
+    height: .1em;
+    width: 1em;
+    box-shadow: 1px 2px 3px #2B2B29;
+}
+
+h1:before,
+ul li:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h1:after {
+    left: 0.5em;
+    margin-right: -50%;
 }
 
 #welcome-block h1 {
@@ -65,38 +71,62 @@ ul {
     color:white;
 }
 
-h1:before,
-h1:after {
-    background-color:#2B2B29;
-    content: "";
-    display: inline-block;
-    height: .1em;
-    position: relative;
-    vertical-align: middle;
-    width: 1em;
-}
-
-h1:before,
-h1:after {
-    background-color: white;
-    height: .1em;
-    width: 1em;
-    box-shadow: 1px 2px 3px #2B2B29;
+#welcome-block h2 {
+    text-align: center;
+    size: 8em;
 }
 
 
-h1:before {
-    right: 0.5em;
-    margin-left: -50%;
+#about-me {
+    display:block;
+    text-align: center;
+    padding:1.5em;
+    border-style: solid;
+    border-color:#c4d5e7;
+    width: 40%;
+    margin-top:2em;
+    margin-bottom:2em;
+    margin-left:auto;
+    margin-right:auto;
 }
 
-h1:after {
-    left: 0.5em;
-    margin-right: -50%;
+#about-me p{
+    text-align:justify;
 }
+
+ul {
+    list-style-type:none;
+}
+
+.resume ul li {
+    text-align:left;
+    width:40%
+}
+
+.job-title td {
+    padding-right: 30em;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#interests {
+    padding-bottom:10em;
+}
+
 
 #virtual-resume {
     background-color:#c4d5e7;
+    width:100%
+}
+
+.resume {
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.resume tr{
+    margin:1em;
 }
 
 .container {
@@ -114,18 +144,18 @@ h3, h4 {
 
 .icon-table td {
     padding: 1em;
-    animation: spin 4s linear 0s;
+    /* animation: spin 4s linear 0s; --- add in js*/
+    padding-bottom:1em;
 }
 
-#contact {
+/* #contact-me {
     height: 100%;
     position: absolute;
-    background-color:#c4d5e7;
     width: 8em;
     left: 0em;
     padding-right: 3em;
     padding-left: 0em;
-}
+} */
 
 li {
     padding: 0em;
