@@ -1,79 +1,38 @@
-/* header {
-    
-} */
+#about-me {
+    display:block;
+    text-align: center;
+    padding:1.5em;
+    border-style: solid;
+    border-color:#c4d5e7;
+    width: 40%;
+    margin-top:2em;
+    margin-bottom:2em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#about-me p{
+    text-align:justify;
+}
+
+#welcome-block h2 {
+    text-align: center;
+    size: 8em;
+}
 
 body {
     background-color: white;
     text-align: center;
     font-family: 'Cardo', serif;
     color: #2B2B29;
-    height: 850px;
-    width: 100vw;
-    background: black;
-    overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-}
-
-.quote {
-    margin: auto;
-    width: fit-content;
-    max-width: 30%;
-    background: #1B3154;
-    padding: 1em;
-    color:white;
-    text-align: right;
-}
-
-.quote blockquote {
-    padding:1.5em;
-}
-
-.quote figcaption {
-    padding: 1.5em;
-}
-
-q {
-    display:block;
-    text-align: left;
-}
-  
-q:before {
-    content: open-quote;
-    font-size: 4em;
-    color:#c4d5e7;
-}
-  
-q:after {
-    content: close-quote;
 }
 
 ul {
-    list-style-type: none;
-}
-
-nav#menu {
-    height: 100%;
-    position: absolute;
-    background-color:#c5154a;
-    width: 10em;
-    right: 0em;
-    color:white;
-}
-
-nav#menu a {
-    color:white; 
-    text-decoration: none;
-    text-transform: uppercase;
-    text-decoration-line: none;
-}
-
-
-#my-story {
-
+    list-style-type:
 }
 
 #welcome-block h1 {
@@ -84,6 +43,8 @@ nav#menu a {
     font-size:3em;
     font-stretch: ultra-expanded;
     font-family: 'Oswald';
+    text-transform: uppercase;
+    padding: 0em;
 }
 
 #welcome-block {
@@ -105,9 +66,7 @@ nav#menu a {
 }
 
 h1:before,
-h1:after,
-h2:before,
-h2:after {
+h1:after {
     background-color:#2B2B29;
     content: "";
     display: inline-block;
@@ -126,32 +85,36 @@ h1:after {
 }
 
 
-h1:before, h2:before {
+h1:before {
     right: 0.5em;
     margin-left: -50%;
 }
 
-h1:after, h2:after {
+h1:after {
     left: 0.5em;
     margin-right: -50%;
 }
 
-table {
-    align-items: center;
+#virtual-resume {
+    background-color:#c4d5e7;
+}
+
+.container {
+    width:70%;
+}
+
+h3, h4 {
+    padding:0em;
+}
+
+.icon-table {
     margin-left: auto;
     margin-right: auto;
-    transition: left 3s;
 }
 
-td {
-    padding: 5em;
-    padding-top: 0em;
-}
-
-.interests {
-    width:5em;
-    min-width: 100%;
-    position: flex;
+.icon-table td {
+    padding: 1em;
+    animation: spin 4s linear 0s;
 }
 
 #contact {
@@ -165,7 +128,7 @@ td {
 }
 
 li {
-    padding: 1em;
+    padding: 0em;
 }
 
 h1 {
@@ -193,10 +156,44 @@ h3 {
         transform: perspective(5em) rotateY(360deg) rotateX(15deg);
     }
     100% {
-        transform: perspective(0em) rotateY(0deg) rotateX(15deg);
+        transform: perspective(0em) rotateY(50deg) rotateX(15deg);
     }
 
 }
+
+/* .quote {
+    margin: auto;
+    width: fit-content;
+    max-width: 30%;
+    background: #1B3154;
+    padding: 1em;
+    color:white;
+    text-align: right;
+}
+
+.quote blockquote {
+    padding:1.5em;
+}
+
+.quote figcaption {
+    padding: 1.5em;
+}
+
+q {
+    display:block;
+    text-align: left;
+}
+
+q:before {
+    content: open-quote;
+    font-size: 4em;
+    color:#c4d5e7;
+}
+  
+q:after {
+    content: close-quote;
+} */
+
 /* .circle .char {
     position: absolute;
     top: 0;
@@ -224,4 +221,20 @@ h3 {
 img.wiggle {
     display: inline-block;
     animation: wiggle 2.5s infinite;
-} */ */
+} */
+
+/* nav#menu {
+    height: 100%;
+    position: absolute;
+    background-color:#c5154a;
+    width: 10em;
+    right: 0em;
+    color:white;
+}
+
+nav#menu a {
+    color:white; 
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration-line: none;
+} */
