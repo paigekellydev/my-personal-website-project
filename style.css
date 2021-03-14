@@ -78,11 +78,17 @@ h1:after {
 
 
 #about-me {
-    display:block;
-    text-align: center;
     padding:1.5em;
     border-style: solid;
     border-color:#c4d5e7;
+    width: 40%;
+
+}
+
+.container {
+    display:block;
+    text-align: center;
+    padding:1.5em;
     width: 40%;
     margin-top:2em;
     margin-bottom:2em;
@@ -105,13 +111,10 @@ ul {
 
 .job-title td {
     padding-right: 30em;
+    
     text-align:left;
     margin-left:auto;
     margin-right:auto;
-}
-
-#interests {
-    padding-bottom:10em;
 }
 
 
@@ -130,7 +133,8 @@ ul {
 }
 
 .container {
-    width:70%;
+    padding: 2em;
+    padding-top:1em; 
 }
 
 h3, h4 {
@@ -143,19 +147,14 @@ h3, h4 {
 }
 
 .icon-table td {
-    padding: 1em;
-    /* animation: spin 4s linear 0s; --- add in js*/
-    padding-bottom:1em;
+    padding-right: 2em;
+    padding-left:2em;
 }
 
-/* #contact-me {
-    height: 100%;
-    position: absolute;
-    width: 8em;
-    left: 0em;
-    padding-right: 3em;
-    padding-left: 0em;
-} */
+.icon-container {
+    padding: 2em;
+    padding-top:1em; 
+}
 
 li {
     padding: 0em;
