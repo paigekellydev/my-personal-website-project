@@ -10,8 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1:before,
-h1:after,
-ul li:before {
+h1:after {
     background-color:#2B2B29;
     content: "";
     display: inline-block;
@@ -22,16 +21,14 @@ ul li:before {
 }
 
 h1:before,
-h1:after,
-ul li:before {
+h1:after { 
     background-color: white;
     height: .1em;
     width: 1em;
     box-shadow: 1px 2px 3px #2B2B29;
 }
 
-h1:before,
-ul li:before {
+h1:before { 
     right: 0.5em;
     margin-left: -50%;
 }
@@ -96,51 +93,74 @@ h1:after {
     margin-right:auto;
 }
 
-
-
 #about-me p {
     text-align:justify;
     padding-right:4em;
     padding-left:4em;
 }
 
-ul {
-    list-style-type:none;
-}
+.resume-pic {
+    float: left;
+ }
 
-.resume ul li {
-    text-align:left;
-    width:100%
+.job-description {
+    text-align:justify;
+    position:relative;
+    margin-left:10em;
+    padding-left:20em;
 }
 
 .job-title td {
-    padding-right: 2em;
+    padding-right: 1em;
+    padding-left:1em;
     text-align:left;
     margin-left:auto;
     margin-right:auto;
-    padding-top:2em;
+    padding-top: -1em;
 }
 
 
 #virtual-resume {
     background-color:#c4d5e7;
-    width:100%;
-    margin-top:2em;
+    width:70%;
+    margin-right:auto;
+    margin-left:auto;
+    padding:2em;
 }
 
 #resume-title {
-    margin:0em;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+}
+
+.job-description li {
+   list-style:none;
+   margin-right:auto;
+   margin-left:2em;
+   padding-right:2em;
+   padding-left:2.5em;
+   list-style-position:inside;
+   text-indent:-3em;
+   padding-bottom:.5em;
+}
+
+.job-description li:before {
+    height: .5px;
+    width: 1em;
+    background-color:#2B2B29;
+    content: "";
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-right:1em;
+    margin-left:1em;
 }
 
 .resume {
-    margin-right:auto;
-    margin-left:auto;
+    height:300px;
+    padding:1em;
 }
-
-.resume tr{
-    margin:1em;
-}
-
 
 
 h3, h4 {
@@ -162,9 +182,6 @@ h3, h4 {
     padding-top:1em; 
 }
 
-li {
-    padding: 0em;
-}
 
 h1 {
     transform-style: preserve-3d;
