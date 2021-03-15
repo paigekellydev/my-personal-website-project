@@ -1,31 +1,24 @@
+// my event listners are not working , not sure how to fix
 
-// const welcomeMessage = ["Allow me to introduce my self", "my name is"] 
-// const welcomeBlock = document.getElementById('welcome-block');
-// welcomeBlock.addEventListener('animationiteration', function() {
-//     for (let i = 0; i < welcomeMessage.length; i++) {
-//         console.log(welcomeMessage[i])
-//     }
-// })
+const emailIcon = document.getElementById("email");
+const githubIcon = document.getElementById("github");
+const linkedinIcon = document.getElementById("linkedin")
+const slackIcon = document.getElementById("slack");
 
-// const icon = document.getElementByClass("interests");
-// item.addEventListener("mouseover", func, false);
-// item.addEventListener("mouseout", func1, false);
+function iconMouseOver(icon, id) {
+    icon.src = `images/${id}-icon.png`
+}
 
-// function func()
-// { 
-//    icon.setAttribute("style", "background-color:blue;")
-// }
+function iconMouseClick(icon, id) {
+    icon.src = `images/${id}-brown-icon.png`
+}
 
-// function func1()
-// {  
-//    item.setAttribute("style", "background-color:green;")
-// }
-const phoneIcon = document.getElementById("phone");
+emailIcon.addEventListener("mouseover", iconMouseOver(emailIcon, "email"))
+githubIcon.addEventListener("mouseover", iconMouseOver(githubIcon, "github"))
+slackIcon.addEventListener("mouseover", iconMouseOver(emailIcon, "email"))
+githubIcon.addEventListener("mouseover", iconMouseOver(githubIcon, "github"))
 
-phoneIcon.addEventListener("mouseover", function () {
-    phoneIcon.src = "images/phone-icon.png"
-})
-
-phoneIcon.addEventListener('mouseout', function(){
-    phoneIcon.src = "images/phone-purple-icon.png"
-  })
+emailIcon.addEventListener("click", iconMouseClick(emailIcon, "email"))
+githubIcon.addEventListener("click", iconMouseClick(githubIcon, "github"))
+slackIcon.addEventListener("click", iconMouseClick(emailIcon, "email"))
+githubIcon.addEventListener("click", iconMouseClick(githubIcon, "github"))

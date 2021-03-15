@@ -1,9 +1,11 @@
 # my-personal-website-project
+Notes for later:
+-Fix script.js ... event listeners are not working!
+-Add animated text(see animation help) over name; "Allow me to introduce myself, my name is" then flash to my name. Exampe - alticreation : https://speckyboy.com/css-javascript-text-animation-snippets/
 
 List of items:
-Nav bar - pink (side pop - out if possible- decided not to have nav bar)
-
-    My story
+    Header image and welcome message
+    About Me
     Virtual Resume/Work experience (expand option if possible)
         - simple table with years worked / location / picture / title / short summary
     Interests - ski icon / swim icon / dog icon / coding icon / learning icon
@@ -12,10 +14,6 @@ Nav bar - pink (side pop - out if possible- decided not to have nav bar)
     Contact me - phone icon, email icon, LinkedIn icon
         - indigo
     To the top / From the top / Home arrow / my name is to header anchor
-
-Quote box - indigo (not sure placement - decided not to have quote box)
-    “When we invest in women and girls, we are investing in the people who invest in everyone else." - Melinda Gates
-Header image - font animation - "allow me to introduce myself, my name is - PAIGE KELLY (add if possible)
 
 Colors:
     Main-
@@ -46,10 +44,7 @@ https://johnfang.mystrikingly.com/
 Simple - first inspiration
 http://www.garysheng.com/
 
-Notes for later:
-Add animated box over name; "Allow me to introduce myself, my name is" then flash to my name
-
-Animation help:
+Animation help (for later):
 https://speckyboy.com/animation-snippets/ (nav bar)
 
 https://speckyboy.com/css-javascript-text-animation-snippets/ (alticreation - change words "allow me...)
